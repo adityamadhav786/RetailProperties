@@ -35,8 +35,8 @@ Steps to run the Application
     b. Run "npm install" to install all dependencies and libraries to your local. The libraries will be installed in "node_modules" folder.
     c. Run "npm run dev" to run the Server Service.
     d. The Server Application is running in PORT #8888. Ensure the port is free your machine.
-5. Server API is running at http://localhost:SERVER_PORT (http://localhost:8888 by default)
-   Web client is running at http://localhost:CLIENT_PORT (http://localhost:3000 by default)
+5. - Server API is running at http://localhost:SERVER_PORT (http://localhost:8888 by default)
+   - Web client is running at http://localhost:CLIENT_PORT (http://localhost:3000 by default)
 6. Open the browser and navigate to http://localhost:3000/ to access the application.
 7. You are all set to use the application.
 
