@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 const app = express();
@@ -14,5 +13,6 @@ app.listen(PORT, () => {
 });
 
 const router = require("./routes/route");
+app.use("/property", router)
 
 app.use(router);

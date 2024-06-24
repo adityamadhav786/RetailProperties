@@ -38,7 +38,7 @@ export default function Header() {
 
     const setFavourites = (id, property, i) => {
         //API to update the favourite in the database
-        axios.get(`http://localhost:8888/updateFavourites?id=${id}&favourite=${!property.isFavourite}`).then((res) => {
+        axios.get(`http://localhost:8888/property/updateFavourites?id=${id}&favourite=${!property.isFavourite}`).then((res) => {
             console.log("Favourites Updated")
         }).catch((err) => {
             console.log("Error Occured : ", err)

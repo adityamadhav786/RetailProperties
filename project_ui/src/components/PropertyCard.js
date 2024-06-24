@@ -67,7 +67,7 @@ export default function PropertyCard(props) {
 
     const setFavourites = (id) => {
         //API to update the favourites in the databse
-        axios.get(`http://localhost:8888/updateFavourites?id=${id}&favourite=${!property.isFavourite}`).then((res)=>{
+        axios.get(`http://localhost:8888/property/updateFavourites?id=${id}&favourite=${!property.isFavourite}`).then((res)=>{
             console.log("Favourites Updated")
         }).catch((err)=>{
             console.log("Error Occured : ", err)

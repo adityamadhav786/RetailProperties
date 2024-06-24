@@ -7,8 +7,9 @@ const uri = "mongodb+srv://adityamadhav786:kp4mJcQapJutF0gb@project.cnn1f.mongod
 const client = new MongoClient(uri);
 
 // This section will help you get a list of all the records.
-router.get("/getPropertyDetails", async (req, res) => {
 
+router.get("/getPropertyDetails", async (req, res) => {
+  
   let result = await client.connect();
   let db = result.db("MaxHome")
   let collections = db.collection("RealEstateData")
