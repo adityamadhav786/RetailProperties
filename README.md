@@ -1,4 +1,4 @@
-## MaxHome.ai Real Estate Application
+## Real Estate Application
 Our website is your go-to destination for exploring all kinds of properties, from charming cottages to majestic castles. We've created a simple and user-friendly platform where you can browse through property listings effortlessly.
 
 
