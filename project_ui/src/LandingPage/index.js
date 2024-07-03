@@ -28,7 +28,7 @@ export default function LandingPage() {
 
     useEffect(()=>{
         //Axios GEt request to fetch all the property details
-        axios.get('http://localhost:8888/getPropertyDetails/getPropertyDetails').then((res)=>{
+        axios.get('http://localhost:8888/property/getPropertyDetails').then((res)=>{
             console.log("Properties : ",res)
             //Properties data that will be shown on the screen
             setProperties(res.data);
